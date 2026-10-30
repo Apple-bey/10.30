@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/User/Desktop/10.30
+C:/Users/User/Desktop/10.30/10.30
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-4790
-Successfully changed project path to: C:/Users/User/Desktop/10.30
-C:/Users/User/Desktop/10.30
+7116
+Successfully changed project path to: C:/Users/User/Desktop/10.30/10.30
+C:/Users/User/Desktop/10.30/10.30
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,16 +49,16 @@ C:/Users/User/Desktop/10.30
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12988] Host "[IP] 172.16.42.230 [Port] 0 [Flags] 2 [Guid] 2410179925 [EditorId] 2410179925 [Version] 1048832 [Id] WindowsEditor(7,D43-60) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16880] Host "[IP] 172.16.42.230 [Port] 0 [Flags] 2 [Guid] 1921484935 [EditorId] 1921484935 [Version] 1048832 [Id] WindowsEditor(7,D43-60) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12988] Host "[IP] 172.16.42.230 [Port] 0 [Flags] 2 [Guid] 2410179925 [EditorId] 2410179925 [Version] 1048832 [Id] WindowsEditor(7,D43-60) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16880] Host "[IP] 172.16.42.230 [Port] 0 [Flags] 2 [Guid] 1921484935 [EditorId] 1921484935 [Version] 1048832 [Id] WindowsEditor(7,D43-60) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 2090.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 14.09 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/10.30/Assets
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/10.30/10.30/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -70,47 +70,47 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.319707 seconds.
-- Loaded All Assemblies, in  6.470 seconds
+Registered in 0.008948 seconds.
+- Loaded All Assemblies, in  0.349 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 280 ms
+Android Extension - Scanning For ADB Devices 221 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
-Domain Reload Profiling: 7156ms
-	BeginReloadAssembly (4396ms)
+- Finished resetting the current domain, in  0.571 seconds
+Domain Reload Profiling: 918ms
+	BeginReloadAssembly (107ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (392ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (368ms)
-	LoadAllAssembliesAndSetupDomain (1302ms)
-		LoadAssemblies (4394ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (106ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1300ms)
-			TypeCache.Refresh (1299ms)
-				TypeCache.ScanAssembly (1024ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (688ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (571ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (637ms)
+		SetupLoadedEditorAssemblies (515ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (486ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (350ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (99ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,10 +118,8 @@ Domain Reload Profiling: 7156ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-TypeRef ResolutionScope not yet handled (218) for .IMergeView in image C:\Users\User\Desktop\10.30\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Unloading broken assembly Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll, this assembly can cause crashes in the runtime
-- Loaded All Assemblies, in  4.668 seconds
-Refreshing native plugins compatible for Editor in 5.35 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.564 seconds
+Refreshing native plugins compatible for Editor in 6.83 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -129,9 +127,9 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.522 seconds
-Domain Reload Profiling: 5188ms
-	BeginReloadAssembly (136ms)
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 1164ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
@@ -139,158 +137,184 @@ Domain Reload Profiling: 5188ms
 		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (4451ms)
-		LoadAssemblies (4114ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (344ms)
+		LoadAssemblies (313ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (419ms)
-			TypeCache.Refresh (400ms)
-				TypeCache.ScanAssembly (385ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (522ms)
+		AnalyzeDomain (117ms)
+			TypeCache.Refresh (97ms)
+				TypeCache.ScanAssembly (80ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (603ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (393ms)
+		SetupLoadedEditorAssemblies (475ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (23ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (287ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 4.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3531 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (61.0 KB). Loaded Objects now: 3987.
-Memory consumption went from 135.2 MB to 135.2 MB.
-Total: 3.391100 ms (FindLiveObjects: 0.489800 ms CreateObjectMapping: 0.212000 ms MarkObjects: 2.579400 ms  DeleteObjects: 0.109100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: fa07261737969afd534745fdbb5a9ba0 -> 
-  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: e140ede12a96f68f30062138385171c3 -> 90647cc400823b41df847a6cbfc29026
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: b1721e471183956468462f6b64901640 -> c1777a498406cd95bc755aaf92ab946f
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/precompiled-assembly-types:unityplastic: 80ce6fce021ee75cb20edaadb7bf11e0 -> 77e94f2abcdaa3aa9b67c26e12a2f45d
-  custom:scripting/precompiled-assembly-types:Onigwrap:  -> 39f07d0dafb82c63a63f5c12698bfc3c
-  custom:scripting/precompiled-assembly-types:TextMateSharp:  -> 902bea8a06822099c02ec064cd3f92f7
-  custom:scripting/precompiled-assembly-types:TextMateSharp.Grammars:  -> 60389e8606e605b8f2d197ff1a0f8eff
-========================================================================
-Received Import Request.
-  Time since last request: 1898.100745 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(f2f34cb1f59b7b64192fca2c3cd0f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(f2f34cb1f59b7b64192fca2c3cd0f0d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38003a88c0f8c48df2dd35c62ebac94e') in 0.002217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 614.502621 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '174969b13aa0d55dee15a6747db32f84') in 0.062838 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Prepare
-Couldn't register non-exiting asset root folder: 'Assets'
-Assertion failed on expression: 'success'
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Trying to reload asset but can't find object on disk
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.236 seconds
-Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.368 seconds
-Domain Reload Profiling: 603ms
-	BeginReloadAssembly (159ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (11ms)
-		LoadAssemblies (87ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (369ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (243ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (127ms)
-			ProcessInitializeOnLoadMethodAttributes (18ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (141ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 7.58 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1940 unused Assets / (1.1 MB). Loaded Objects now: 2048.
-Memory consumption went from 74.2 MB to 73.1 MB.
-Total: 3.870100 ms (FindLiveObjects: 0.281000 ms CreateObjectMapping: 0.202100 ms MarkObjects: 1.816700 ms  DeleteObjects: 1.569500 ms)
+Unloading 2524 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (68.8 KB). Loaded Objects now: 2970.
+Memory consumption went from 114.5 MB to 114.4 MB.
+Total: 7.085000 ms (FindLiveObjects: 0.308900 ms CreateObjectMapping: 0.176700 ms MarkObjects: 6.422400 ms  DeleteObjects: 0.175700 ms)
 
-Prepare: number of updated asset objects reloaded= 2
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/SSOCredentialsDialog.cs: e140ede12a96f68f30062138385171c3 -> 90647cc400823b41df847a6cbfc29026
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CloudEditionWelcomeWindow.cs: b1721e471183956468462f6b64901640 -> c1777a498406cd95bc755aaf92ab946f
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4618.371337 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@2x.png
+  artifactKey: Guid(efae8c209fe26f541b3d560f2034287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_EditorUI.Target@2x.png using Guid(efae8c209fe26f541b3d560f2034287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb1afba9eebf4727b2d7751ac095d0e') in 0.076798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_GridSelection.png
+  artifactKey: Guid(0594f3299f18e6f41908492f9b359f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_GridSelection.png using Guid(0594f3299f18e6f41908492f9b359f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea53a073b80529e7edce2dfc78b408d7') in 0.016731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@4x.png
+  artifactKey: Guid(77be2b195bdd3a849b554d6dd09badb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.DefaultBrush@4x.png using Guid(77be2b195bdd3a849b554d6dd09badb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22d053dfe515da89e9bb9dbfe21a431') in 0.017756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png
+  artifactKey: Guid(99c3717808acc0f43b394ab3e10da8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.ActiveTargetLayers.png using Guid(99c3717808acc0f43b394ab3e10da8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17a2e2254d4a1548c662a6e223a29a2') in 0.018169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipY@2x.png
+  artifactKey: Guid(a3c4ea29a117e3f418ded11a50e4d52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipY@2x.png using Guid(a3c4ea29a117e3f418ded11a50e4d52d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49ed48bcd25a200cbc72a8405ebe0cae') in 0.017870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@4x.png
+  artifactKey: Guid(d9f2d0aff557fba4cb316f849b0ccdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@4x.png using Guid(d9f2d0aff557fba4cb316f849b0ccdd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a9d04ffd1f4d4fbe6dc994b33297881') in 0.016597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW@2x.png
+  artifactKey: Guid(72124a67bbace794fa38534a24d23cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateACW@2x.png using Guid(72124a67bbace794fa38534a24d23cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '724d15b3fda689545de2acb23b7237f8') in 0.018073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid@2x.png
+  artifactKey: Guid(6c05763976bcac64ebefb1f097e6ef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid@2x.png using Guid(6c05763976bcac64ebefb1f097e6ef84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb39fdded6157f82eedbc587700ef28c') in 0.017139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette.png
+  artifactKey: Guid(84cd96391d8e912479adff56b3500191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.EditPalette.png using Guid(84cd96391d8e912479adff56b3500191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7718ae44dc304c32988d605d0c19f8') in 0.017138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX@2x.png
+  artifactKey: Guid(1f26945e970839e41ba35badd04237ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX@2x.png using Guid(1f26945e970839e41ba35badd04237ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738b157d1e4b5e2d1697e32451b81e54') in 0.016015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png
+  artifactKey: Guid(479801e1f49ea2d4baf2b4c12f674bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone@2x.png using Guid(479801e1f49ea2d4baf2b4c12f674bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef7feb0f90f7f1ad54d902653928785') in 0.016646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid.png
+  artifactKey: Guid(b46d3a07716bc8b4296166d5ac10e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusGrid.png using Guid(b46d3a07716bc8b4296166d5ac10e492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418fa1318806dd6492b8144f0c629033') in 0.017011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone.png
+  artifactKey: Guid(5dfb96fd1c7a1bf4f9f606597de935cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.FocusNone.png using Guid(5dfb96fd1c7a1bf4f9f606597de935cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b2ff2fa2ac99a3e0b45c82eb4b86b6') in 0.016776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX.png
+  artifactKey: Guid(238833eb2176e7d429d5020dc9232155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.FlipX.png using Guid(238833eb2176e7d429d5020dc9232155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b37876d86813755abaa4873fadeaf818') in 0.017340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@2x.png
+  artifactKey: Guid(03d93c388f90a6248983677a29c72b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Tilemap.BrushSettings@2x.png using Guid(03d93c388f90a6248983677a29c72b38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6872c0d17fe1d53b1cc700367958c56') in 0.017205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW@2x.png
+  artifactKey: Guid(e41a6ab3ac7354642a9006c03183e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_Grid.RotateCW@2x.png using Guid(e41a6ab3ac7354642a9006c03183e95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd6ec65a893171f6cad33f3a335c0c0e') in 0.016537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.2d.tilemap/Editor/Icons/d_GridSelection@2x.png
+  artifactKey: Guid(63a012608de367444a8cfb3b43e4da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.2d.tilemap/Editor/Icons/d_GridSelection@2x.png using Guid(63a012608de367444a8cfb3b43e4da64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc23077a47323e4661fcc08d7a30e6f') in 0.014546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
